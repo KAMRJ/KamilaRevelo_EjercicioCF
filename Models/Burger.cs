@@ -8,7 +8,7 @@ namespace KamilaRevelo_EjercicioCF.Models
         [Required]
         public string? Name { get; set; }
         public bool WithCheese { get; set; }
-        [Range(0.01, 9999.99)]
+        [Range(0.02, 9999.98)]
         public decimal Precio { get; set; }
     }
 }
